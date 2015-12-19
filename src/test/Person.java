@@ -19,9 +19,5 @@ public class Person
 //            new Person("Seter"),
 //            new Person("Samuel")
 //        };
-//        
-//        family2 = {new Person("Gabe")};
-//        
-//        System.out.print(family[1]);
 //    }
 }

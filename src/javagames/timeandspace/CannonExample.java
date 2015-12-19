@@ -174,7 +174,7 @@ public class CannonExample extends JFrame implements Runnable
         if(bullet!= null)
         {
             velocity.y += -9.8f * delta;
-            bullet.x += velocity.y * delta;
+            bullet.x += velocity.x * delta;
             bullet.y += velocity.y * delta;
             bulletCpy = new Vector2f(bullet);
             
@@ -192,7 +192,7 @@ public class CannonExample extends JFrame implements Runnable
         g.drawString(frameRate.getFrameRate(), 20, 20);
         g.drawString("(A) to raise, (D) to lower", 20, 35);
         g.drawString("Press Space to fire cannon", 20, 50);
-        String vel = String.format("Velocity (%.2f,%.2f", velocity.x, velocity.y);
+        String vel = String.format("Velocity (%.2f,%.2f)", velocity.x, velocity.y);
         g.drawString(vel, 20, 65);
         
         float worldWidth = 5.0f;
@@ -202,7 +202,7 @@ public class CannonExample extends JFrame implements Runnable
         
         float sx = screenWidth / worldWidth;
         float sy = screenHeight / worldHeight;
-        Matrix3x3f viewport = Matrix3x3f.scale(sx, -sy); //may have a bug!!!
+        Matrix3x3f viewport = Matrix3x3f.scale(sx, -sy);
         float tx = screenWidth / 2.0f;
         float ty = screenHeight / 2.0f;
         viewport = viewport.mul(Matrix3x3f.translate(tx, ty));
@@ -223,7 +223,7 @@ public class CannonExample extends JFrame implements Runnable
     {
         Vector2f P;
         Vector2f S = polygon[polygon.length -1];
-        for(int i = 0; i < polygon.length -1; ++i)
+        for(int i = 0; i < polygon.length ; ++i)
         {
             P = polygon[i];
             g.drawLine((int)S.x, (int)S.y,(int)P.x, (int)P.y);
@@ -245,22 +245,22 @@ public class CannonExample extends JFrame implements Runnable
         System.exit(0);
     }
     
-    public static void main(String[] args)
-    {
-        final CannonExample app = new CannonExample();
-        app.addWindowListener(new WindowAdapter()
-        {
-            public void windowClosing()
-            {
-                app.onWindowClosing();
-            }
-        });
-        SwingUtilities.invokeLater(new Runnable()
-        {
-            public void run()
-            {
-                app.createAndShowGUI();
-            }
-        });
-    }    
+//    public static void main(String[] args)
+//    {
+//        final CannonExample app = new CannonExample();
+//        app.addWindowListener(new WindowAdapter()
+//        {
+//            public void windowClosing()
+//            {
+//                app.onWindowClosing();
+//            }
+//        });
+//        SwingUtilities.invokeLater(new Runnable()
+//        {
+//            public void run()
+//            {
+//                app.createAndShowGUI();
+//            }
+//        });
+//    }    
 }

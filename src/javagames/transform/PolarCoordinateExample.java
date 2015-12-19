@@ -24,7 +24,9 @@ public class PolarCoordinateExample extends JFrame
     private Point coord;
     
     public PolarCoordinateExample()
-    {}
+    {
+        
+    }
     
     protected void createAndShowGUI()
     {

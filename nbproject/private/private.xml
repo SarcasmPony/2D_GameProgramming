@@ -12,26 +12,8 @@
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/E:/Programming/Projects/2D_Game/2D_GameProgramming/src/javagames/timeandspace/CannonExample.java</file>
-            <file>file:/E:/Programming/Projects/2D_Game/2D_GameProgramming/src/javagames/transform/MatrixMultiplyExample.java</file>
-            <file>file:/E:/Programming/Projects/2D_Game/2D_GameProgramming/src/javagames/transform/PolarCoordinateExample.java</file>
-            <file>file:/E:/Programming/Projects/2D_Game/2D_GameProgramming/src/javagames/util/KeyboardInput.java</file>
-            <file>file:/E:/Programming/Projects/2D_Game/2D_GameProgramming/src/javagames/render/RenderThreadExample.java</file>
-            <file>file:/E:/Programming/Projects/2D_Game/2D_GameProgramming/src/javagames/util/SimpleMouseInput.java</file>
             <file>file:/E:/Programming/Projects/2D_Game/2D_GameProgramming/src/javagames/util/RelativeMouseInput.java</file>
-            <file>file:/E:/Programming/Projects/2D_Game/2D_GameProgramming/src/javagames/input/SimpleKeyboardExample.java</file>
-            <file>file:/E:/Programming/Projects/2D_Game/2D_GameProgramming/src/test/Person.java</file>
-            <file>file:/E:/Programming/Projects/2D_Game/2D_GameProgramming/src/javagames/transform/VectorGraphicsExample.java</file>
-            <file>file:/E:/Programming/Projects/2D_Game/2D_GameProgramming/src/javagames/timeandspace/TimeDeltaExample.java</file>
-            <file>file:/E:/Programming/Projects/2D_Game/2D_GameProgramming/src/javagames/timeandspace/ScreenMappingExample.java</file>
-            <file>file:/E:/Programming/Projects/2D_Game/2D_GameProgramming/src/javagames/input/SimpleMouseExample.java</file>
-            <file>file:/E:/Programming/Projects/2D_Game/2D_GameProgramming/src/javagames/util/Vector2f.java</file>
-            <file>file:/E:/Programming/Projects/2D_Game/2D_GameProgramming/src/javagames/util/Matrix3x3f.java</file>
-            <file>file:/E:/Programming/Projects/2D_Game/2D_GameProgramming/src/javagames/render/DisplayModeExample.java</file>
-            <file>file:/E:/Programming/Projects/2D_Game/2D_GameProgramming/src/javagames/timeandspace/ViewportRatio.java</file>
-            <file>file:/E:/Programming/Projects/2D_Game/2D_GameProgramming/src/javagames/util/SimpleKeyboardInput.java</file>
-            <file>file:/E:/Programming/Projects/2D_Game/2D_GameProgramming/src/javagames/util/FrameRate.java</file>
-            <file>file:/E:/Programming/Projects/2D_Game/2D_GameProgramming/src/javagames/input/RelativeMouseExample.java</file>
+            <file>file:/E:/Programming/Projects/2D_Game/2D_GameProgramming/src/javagames/intersection/OverlapExample.java</file>
         </group>
     </open-files>
 </project-private>
