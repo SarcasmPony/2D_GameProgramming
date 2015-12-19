@@ -145,6 +145,7 @@ public class VectorGraphicsExample extends JFrame
         sx = sy = 0.0f;
         sxStep = syStep = 0.01f;
         doRotate = doScale = doTranslate = false;
+        doXShear = doYShear = false;
     }
     
     private void processInput()
@@ -251,25 +252,22 @@ public class VectorGraphicsExample extends JFrame
         System.exit(0);
     }
     
-    public static void main(String[] args)
-    {
-        final VectorGraphicsExample app = new VectorGraphicsExample();
-        app.addWindowListener(new WindowAdapter()
-        {
-            public void windowClosing(WindowEvent e)
-            {
-                app.onWindowClosing();
-            }
-        });
-        SwingUtilities.invokeLater(new Runnable()
-        {
-            public void run()
-            {
-                app.createAndShowGUI();
-            }
-        });
-    }
-    
-    
-    
+//    public static void main(String[] args)
+//    {
+//        final VectorGraphicsExample app = new VectorGraphicsExample();
+//        app.addWindowListener(new WindowAdapter()
+//        {
+//            public void windowClosing(WindowEvent e)
+//            {
+//                app.onWindowClosing();
+//            }
+//        });
+//        SwingUtilities.invokeLater(new Runnable()
+//        {
+//            public void run()
+//            {
+//                app.createAndShowGUI();
+//            }
+//        });
+//    }    
 }
